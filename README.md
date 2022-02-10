@@ -11,12 +11,6 @@ Falta fazer o sistema de gravação dos emails.
 
 #
 
-<h3> Deploy da aplicação com Github Pages 💨: </h3>
-
-> https://targ1no.github.io/semeie
-
-#
-
 <h3> Conteúdo e estrutura das pastas: </h3>
 
 - **css** :open_file_folder:
