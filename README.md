@@ -6,7 +6,7 @@
 
 <h3> Status: </h3>
 
-> Status do Projeto: Em desenvolvimento :warning:
+> Status do Projeto: Em desenvolvimento :warning: <br>
 Falta fazer o sistema de gravação dos emails.
 
 #
