@@ -27,11 +27,18 @@ header {
 
 ul > li {
     display: inline;
+    font-weight: 500;
 }
 
 a {
     text-decoration: none;
     margin: 10px;
+}
+
+a:hover {
+    color: rgb(72, 190, 151);
+    transition: 0.8s;
+    font-size: 18px;
 }
 
 .title {
@@ -45,26 +52,23 @@ section {
     justify-content: center;
     flex-direction: column;
     align-items: center;
-    height: 100vh;
+    height: 90vh;
 }
 
 .input {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
     position: relative;
-    left: 33px;
+    right: 168px;
 }
 
 h1, h2 {
-    font-size: 70px;
+    font-size: 90px;
 }
 
 .text {
-    width: 250px;
+    width: 350px;
     background: #FFF7F7;
+    border-radius: 3px;
     color: black;
-    border-radius: 20.119px;
     border: none;
     margin-top: 20px;
 }
@@ -76,9 +80,10 @@ h1, h2 {
 .botao {
     padding: 8px;
     background: linear-gradient(180deg, rgba(75, 84, 59, 0.31) 0%, #4B543B 100%);
-    border-radius: 20.119px;
+    border-radius: 5px;
     border: none;
     cursor: pointer;
+    font-weight: 500;
 }
 
 .botao:hover {
@@ -104,5 +109,10 @@ label {
         font-size: 45px;
     }
 
+    .input {
+        position: relative;
+        left: 2px;
+    }
 }
+
 
